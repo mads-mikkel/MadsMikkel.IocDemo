@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MadsMikkel.IocDemo.DataAccess\MadsMikkel.IocDemo.DataAccess.csproj" />
+    <ProjectReference Include="..\MadsMikkel.IocDemo.Ioc.Containers\MadsMikkel.IocDemo.Ioc.Containers.csproj" />
+    <ProjectReference Include="..\MadsMikkel.IocDemo.NorthwindEntities\MadsMikkel.IocDemo.NorthwindEntities.csproj" />
+    <ProjectReference Include="..\MadsMikkel.IocDemo.Services.Application\MadsMikkel.IocDemo.Services.Application.csproj" />
+    <ProjectReference Include="..\MadsMikkel.IocDemo.Ui.ViewModels\MadsMikkel.IocDemo.Ui.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

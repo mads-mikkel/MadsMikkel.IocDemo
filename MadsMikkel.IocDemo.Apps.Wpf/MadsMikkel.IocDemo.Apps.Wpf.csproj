@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MadsMikkel.IocDemo.Ioc.Containers\MadsMikkel.IocDemo.Ioc.Containers.csproj" />
+    <ProjectReference Include="..\MadsMikkel.IocDemo.Ioc\MadsMikkel.IocDemo.Ioc.csproj" />
+    <ProjectReference Include="..\MadsMikkel.IocDemo.NorthwindEntities\MadsMikkel.IocDemo.NorthwindEntities.csproj" />
+    <ProjectReference Include="..\MadsMikkel.IocDemo.Ui.ViewModels\MadsMikkel.IocDemo.Ui.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
